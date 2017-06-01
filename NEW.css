@@ -1,0 +1,35 @@
+html {
+	background-color: #f3f4fa;
+	background-image: url("DARKsun.JPG");
+	/*image didn't appear on the website --> had to load it onto the server, but now it loads slowly*/
+	background-size: cover;
+	text-align: center;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("DARKsun.JPG");
+  background-size: cover;
+  height: 500px;
+}
+.jumbotron h2 {
+  color:#800000;
+  font-family: 'Baloo', cursive;
+  font-size: 56px;
+}
+.btn.btn-primary {
+  border-radius: 40px;
+  border: 20px;
+  color: #800000;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #ffdda6;
+}
+/* centering is off it seems like needs to be fixed, maybe use a class to center all at once or specifically center all at the same time to avoid issues with centering being off */
+/*ul {
+    list-style-position: inside;
+    list-style-type: circle;
+}*/
